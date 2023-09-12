@@ -4,9 +4,10 @@ import cors from "cors";
 import morganMiddleware from "./middleware/morgan.middleware";
 import AppLogger from "./lib/logger";
 
-
 export const app: Express = express();
+
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(compression());
 app.use(cors());
 app.use(morganMiddleware);
