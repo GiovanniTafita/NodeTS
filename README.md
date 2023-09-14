@@ -1,10 +1,10 @@
 ## nodeTS
 ### installation
 Checkout to a branch after clone
+add .env file
 ```
 npm install
 ```
-### add .env
 
 ### run
 ```
