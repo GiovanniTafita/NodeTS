@@ -3,6 +3,7 @@ import compression from "compression"
 import cors from "cors";
 import morganMiddleware from "./middleware/morgan.middleware";
 import AppLogger from "./lib/logger";
+import "reflect-metadata"
 
 export const app: Express = express();
 
